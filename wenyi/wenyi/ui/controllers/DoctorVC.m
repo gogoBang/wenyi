@@ -7,16 +7,38 @@
 //
 
 #import "DoctorVC.h"
+#import "DoctorDetailVC.h"
 
 @interface DoctorVC ()
+
 
 @end
 
 @implementation DoctorVC
 
+#pragma mark -
+#pragma mark - custom methods
+
+- (IBAction)doctor:(id)sender
+{
+    DoctorDetailVC *doctor = [[DoctorDetailVC alloc] init];
+    doctor.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:doctor animated:YES];
+}
+
+#pragma mark -
+#pragma mark - view controller lifecycle methods
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.title = @"问医";
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {

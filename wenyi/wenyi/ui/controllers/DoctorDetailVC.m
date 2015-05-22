@@ -1,35 +1,43 @@
 //
-//  SettingVC.m
+//  DoctorDetailVC.m
 //  wenyi
 //
 //  Created by Alex Wu on 15/5/22.
 //  Copyright (c) 2015年 Alex Wu. All rights reserved.
 //
 
-#import "SettingVC.h"
+#import "DoctorDetailVC.h"
+#import "DoctorLiveVC.h"
+#import "DoctorServiceVC.h"
 
-@interface SettingVC ()
+@interface DoctorDetailVC ()
 
 @end
 
-@implementation SettingVC
+@implementation DoctorDetailVC
 
 #pragma mark -
 #pragma mark - custom methods
 
-- (IBAction)logout:(id)sender
+- (IBAction)doctorLive:(id)sender
 {
-    [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"isLogin"];
-    [self.tabBarController setSelectedIndex:0];
+    DoctorLiveVC *liveVC = [[DoctorLiveVC alloc] init];
+    [self.navigationController pushViewController:liveVC animated:YES];
+}
+
+- (IBAction)doctorService:(id)sender
+{
+    DoctorServiceVC *serviceVC = [[DoctorServiceVC alloc] init];
+    [self.navigationController pushViewController:serviceVC animated:YES];
 }
 
 #pragma mark -
 #pragma mark - view controller lifecycle methods
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"个人中心";
+    
+    self.title = @"呼吸内科";
 }
 
 - (void)didReceiveMemoryWarning {

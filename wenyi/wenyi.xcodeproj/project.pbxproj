@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FA3FBCDA1B0F4E0E003054E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBCD91B0F4E0E003054E7 /* main.m */; };
 		FA3FBCDD1B0F4E0E003054E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBCDC1B0F4E0E003054E7 /* AppDelegate.m */; };
-		FA3FBCE01B0F4E0E003054E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBCDF1B0F4E0E003054E7 /* ViewController.m */; };
 		FA3FBCE31B0F4E0E003054E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBCE11B0F4E0E003054E7 /* Main.storyboard */; };
 		FA3FBCE51B0F4E0E003054E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBCE41B0F4E0E003054E7 /* Images.xcassets */; };
 		FA3FBCE81B0F4E0E003054E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBCE61B0F4E0E003054E7 /* LaunchScreen.xib */; };
@@ -25,14 +24,22 @@
 		FA3FBD801B0F54B5003054E7 /* EaseMob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBD7D1B0F54B5003054E7 /* EaseMob.bundle */; };
 		FA3FBD851B0F6188003054E7 /* libEaseMobClientSDKLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3FBD7B1B0F54B5003054E7 /* libEaseMobClientSDKLite.a */; };
 		FA3FBD881B0F63C6003054E7 /* SHBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBD871B0F63C6003054E7 /* SHBaseVC.m */; };
-		FA3FBD8D1B0F6419003054E7 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBD8B1B0F6419003054E7 /* LoginVC.m */; };
-		FA3FBD8E1B0F6419003054E7 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBD8C1B0F6419003054E7 /* LoginVC.xib */; };
 		FA3FBD921B0F6443003054E7 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBD901B0F6443003054E7 /* HomeVC.m */; };
-		FA3FBD931B0F6443003054E7 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBD911B0F6443003054E7 /* HomeVC.xib */; };
 		FA3FBD971B0F647B003054E7 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBD951B0F647B003054E7 /* SettingVC.m */; };
-		FA3FBD981B0F647B003054E7 /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBD961B0F647B003054E7 /* SettingVC.xib */; };
 		FA3FBD9C1B0F64E8003054E7 /* DoctorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBD9A1B0F64E8003054E7 /* DoctorVC.m */; };
-		FA3FBD9D1B0F64E8003054E7 /* DoctorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBD9B1B0F64E8003054E7 /* DoctorVC.xib */; };
+		FA3FBDA11B0F65F0003054E7 /* HelperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBD9F1B0F65F0003054E7 /* HelperVC.m */; };
+		FA3FBDA61B0F66BC003054E7 /* QuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBDA41B0F66BC003054E7 /* QuestionVC.m */; };
+		FA3FBDAB1B0F6FFD003054E7 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBDA91B0F6FFD003054E7 /* LoginVC.m */; };
+		FA3FBDAC1B0F6FFD003054E7 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBDAA1B0F6FFD003054E7 /* LoginVC.xib */; };
+		FA3FBDAF1B0F7708003054E7 /* MallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBDAE1B0F7708003054E7 /* MallVC.m */; };
+		FA3FBDB31B0F79C0003054E7 /* DoctorDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBDB11B0F79C0003054E7 /* DoctorDetailVC.m */; };
+		FA3FBDB41B0F79C0003054E7 /* DoctorDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBDB21B0F79C0003054E7 /* DoctorDetailVC.xib */; };
+		FA3FBDB81B0F7AE1003054E7 /* DoctorLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBDB61B0F7AE1003054E7 /* DoctorLiveVC.m */; };
+		FA3FBDB91B0F7AE1003054E7 /* DoctorLiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBDB71B0F7AE1003054E7 /* DoctorLiveVC.xib */; };
+		FA3FBDBD1B0F7AF8003054E7 /* DoctorServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBDBB1B0F7AF8003054E7 /* DoctorServiceVC.m */; };
+		FA3FBDBE1B0F7AF8003054E7 /* DoctorServiceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3FBDBC1B0F7AF8003054E7 /* DoctorServiceVC.xib */; };
+		FA3FBDC21B0F8E8D003054E7 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBDC11B0F8E8D003054E7 /* AccountManager.m */; };
+		FA3FBDC61B0F9179003054E7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3FBDC51B0F9179003054E7 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +58,6 @@
 		FA3FBCD91B0F4E0E003054E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA3FBCDB1B0F4E0E003054E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA3FBCDC1B0F4E0E003054E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA3FBCDE1B0F4E0E003054E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA3FBCDF1B0F4E0E003054E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FA3FBCE21B0F4E0E003054E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA3FBCE41B0F4E0E003054E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA3FBCE71B0F4E0E003054E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -153,18 +158,34 @@
 		FA3FBD7D1B0F54B5003054E7 /* EaseMob.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EaseMob.bundle; sourceTree = "<group>"; };
 		FA3FBD861B0F63C6003054E7 /* SHBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBaseVC.h; sourceTree = "<group>"; };
 		FA3FBD871B0F63C6003054E7 /* SHBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBaseVC.m; sourceTree = "<group>"; };
-		FA3FBD8A1B0F6419003054E7 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
-		FA3FBD8B1B0F6419003054E7 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
-		FA3FBD8C1B0F6419003054E7 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		FA3FBD8F1B0F6443003054E7 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		FA3FBD901B0F6443003054E7 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		FA3FBD911B0F6443003054E7 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		FA3FBD941B0F647B003054E7 /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
 		FA3FBD951B0F647B003054E7 /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
-		FA3FBD961B0F647B003054E7 /* SettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
 		FA3FBD991B0F64E8003054E7 /* DoctorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorVC.h; sourceTree = "<group>"; };
 		FA3FBD9A1B0F64E8003054E7 /* DoctorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorVC.m; sourceTree = "<group>"; };
-		FA3FBD9B1B0F64E8003054E7 /* DoctorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorVC.xib; sourceTree = "<group>"; };
+		FA3FBD9E1B0F65F0003054E7 /* HelperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperVC.h; sourceTree = "<group>"; };
+		FA3FBD9F1B0F65F0003054E7 /* HelperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperVC.m; sourceTree = "<group>"; };
+		FA3FBDA31B0F66BC003054E7 /* QuestionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionVC.h; sourceTree = "<group>"; };
+		FA3FBDA41B0F66BC003054E7 /* QuestionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionVC.m; sourceTree = "<group>"; };
+		FA3FBDA81B0F6FFD003054E7 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		FA3FBDA91B0F6FFD003054E7 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		FA3FBDAA1B0F6FFD003054E7 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		FA3FBDAD1B0F7708003054E7 /* MallVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallVC.h; sourceTree = "<group>"; };
+		FA3FBDAE1B0F7708003054E7 /* MallVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallVC.m; sourceTree = "<group>"; };
+		FA3FBDB01B0F79C0003054E7 /* DoctorDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorDetailVC.h; sourceTree = "<group>"; };
+		FA3FBDB11B0F79C0003054E7 /* DoctorDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorDetailVC.m; sourceTree = "<group>"; };
+		FA3FBDB21B0F79C0003054E7 /* DoctorDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorDetailVC.xib; sourceTree = "<group>"; };
+		FA3FBDB51B0F7AE1003054E7 /* DoctorLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorLiveVC.h; sourceTree = "<group>"; };
+		FA3FBDB61B0F7AE1003054E7 /* DoctorLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorLiveVC.m; sourceTree = "<group>"; };
+		FA3FBDB71B0F7AE1003054E7 /* DoctorLiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorLiveVC.xib; sourceTree = "<group>"; };
+		FA3FBDBA1B0F7AF8003054E7 /* DoctorServiceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorServiceVC.h; sourceTree = "<group>"; };
+		FA3FBDBB1B0F7AF8003054E7 /* DoctorServiceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorServiceVC.m; sourceTree = "<group>"; };
+		FA3FBDBC1B0F7AF8003054E7 /* DoctorServiceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorServiceVC.xib; sourceTree = "<group>"; };
+		FA3FBDC01B0F8E8D003054E7 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		FA3FBDC11B0F8E8D003054E7 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		FA3FBDC41B0F9179003054E7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FA3FBDC51B0F9179003054E7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,12 +244,11 @@
 		FA3FBCD61B0F4E0E003054E7 /* wenyi */ = {
 			isa = PBXGroup;
 			children = (
-				FA3FBD811B0F56F5003054E7 /* ui */,
 				FA3FBD111B0F54B5003054E7 /* third */,
+				FA3FBDBF1B0F8E68003054E7 /* managers */,
+				FA3FBD811B0F56F5003054E7 /* ui */,
 				FA3FBCDB1B0F4E0E003054E7 /* AppDelegate.h */,
 				FA3FBCDC1B0F4E0E003054E7 /* AppDelegate.m */,
-				FA3FBCDE1B0F4E0E003054E7 /* ViewController.h */,
-				FA3FBCDF1B0F4E0E003054E7 /* ViewController.m */,
 				FA3FBCE11B0F4E0E003054E7 /* Main.storyboard */,
 				FA3FBCE41B0F4E0E003054E7 /* Images.xcassets */,
 				FA3FBCE61B0F4E0E003054E7 /* LaunchScreen.xib */,
@@ -266,6 +286,7 @@
 		FA3FBD111B0F54B5003054E7 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				FA3FBDC31B0F916F003054E7 /* MBProgressHUD */,
 				FA3FBD121B0F54B5003054E7 /* EaseMobSDK */,
 			);
 			path = third;
@@ -553,17 +574,26 @@
 				FA3FBD891B0F63F5003054E7 /* nibs */,
 				FA3FBD861B0F63C6003054E7 /* SHBaseVC.h */,
 				FA3FBD871B0F63C6003054E7 /* SHBaseVC.m */,
-				FA3FBD8A1B0F6419003054E7 /* LoginVC.h */,
-				FA3FBD8B1B0F6419003054E7 /* LoginVC.m */,
 				FA3FBD8F1B0F6443003054E7 /* HomeVC.h */,
 				FA3FBD901B0F6443003054E7 /* HomeVC.m */,
-				FA3FBD911B0F6443003054E7 /* HomeVC.xib */,
 				FA3FBD941B0F647B003054E7 /* SettingVC.h */,
 				FA3FBD951B0F647B003054E7 /* SettingVC.m */,
-				FA3FBD961B0F647B003054E7 /* SettingVC.xib */,
 				FA3FBD991B0F64E8003054E7 /* DoctorVC.h */,
 				FA3FBD9A1B0F64E8003054E7 /* DoctorVC.m */,
-				FA3FBD9B1B0F64E8003054E7 /* DoctorVC.xib */,
+				FA3FBD9E1B0F65F0003054E7 /* HelperVC.h */,
+				FA3FBD9F1B0F65F0003054E7 /* HelperVC.m */,
+				FA3FBDA31B0F66BC003054E7 /* QuestionVC.h */,
+				FA3FBDA41B0F66BC003054E7 /* QuestionVC.m */,
+				FA3FBDA81B0F6FFD003054E7 /* LoginVC.h */,
+				FA3FBDA91B0F6FFD003054E7 /* LoginVC.m */,
+				FA3FBDAD1B0F7708003054E7 /* MallVC.h */,
+				FA3FBDAE1B0F7708003054E7 /* MallVC.m */,
+				FA3FBDB01B0F79C0003054E7 /* DoctorDetailVC.h */,
+				FA3FBDB11B0F79C0003054E7 /* DoctorDetailVC.m */,
+				FA3FBDB51B0F7AE1003054E7 /* DoctorLiveVC.h */,
+				FA3FBDB61B0F7AE1003054E7 /* DoctorLiveVC.m */,
+				FA3FBDBA1B0F7AF8003054E7 /* DoctorServiceVC.h */,
+				FA3FBDBB1B0F7AF8003054E7 /* DoctorServiceVC.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -578,9 +608,30 @@
 		FA3FBD891B0F63F5003054E7 /* nibs */ = {
 			isa = PBXGroup;
 			children = (
-				FA3FBD8C1B0F6419003054E7 /* LoginVC.xib */,
+				FA3FBDB71B0F7AE1003054E7 /* DoctorLiveVC.xib */,
+				FA3FBDBC1B0F7AF8003054E7 /* DoctorServiceVC.xib */,
+				FA3FBDB21B0F79C0003054E7 /* DoctorDetailVC.xib */,
+				FA3FBDAA1B0F6FFD003054E7 /* LoginVC.xib */,
 			);
 			name = nibs;
+			sourceTree = "<group>";
+		};
+		FA3FBDBF1B0F8E68003054E7 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FBDC01B0F8E8D003054E7 /* AccountManager.h */,
+				FA3FBDC11B0F8E8D003054E7 /* AccountManager.m */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		FA3FBDC31B0F916F003054E7 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FBDC41B0F9179003054E7 /* MBProgressHUD.h */,
+				FA3FBDC51B0F9179003054E7 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -664,13 +715,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3FBD8E1B0F6419003054E7 /* LoginVC.xib in Resources */,
-				FA3FBD9D1B0F64E8003054E7 /* DoctorVC.xib in Resources */,
-				FA3FBD931B0F6443003054E7 /* HomeVC.xib in Resources */,
+				FA3FBDAC1B0F6FFD003054E7 /* LoginVC.xib in Resources */,
+				FA3FBDBE1B0F7AF8003054E7 /* DoctorServiceVC.xib in Resources */,
 				FA3FBCE31B0F4E0E003054E7 /* Main.storyboard in Resources */,
 				FA3FBCE81B0F4E0E003054E7 /* LaunchScreen.xib in Resources */,
 				FA3FBD801B0F54B5003054E7 /* EaseMob.bundle in Resources */,
-				FA3FBD981B0F647B003054E7 /* SettingVC.xib in Resources */,
+				FA3FBDB91B0F7AE1003054E7 /* DoctorLiveVC.xib in Resources */,
+				FA3FBDB41B0F79C0003054E7 /* DoctorDetailVC.xib in Resources */,
 				FA3FBCE51B0F4E0E003054E7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -690,12 +741,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3FBD881B0F63C6003054E7 /* SHBaseVC.m in Sources */,
+				FA3FBDB81B0F7AE1003054E7 /* DoctorLiveVC.m in Sources */,
 				FA3FBD9C1B0F64E8003054E7 /* DoctorVC.m in Sources */,
-				FA3FBCE01B0F4E0E003054E7 /* ViewController.m in Sources */,
+				FA3FBDC21B0F8E8D003054E7 /* AccountManager.m in Sources */,
+				FA3FBDAB1B0F6FFD003054E7 /* LoginVC.m in Sources */,
+				FA3FBDA11B0F65F0003054E7 /* HelperVC.m in Sources */,
 				FA3FBD971B0F647B003054E7 /* SettingVC.m in Sources */,
-				FA3FBD8D1B0F6419003054E7 /* LoginVC.m in Sources */,
+				FA3FBDC61B0F9179003054E7 /* MBProgressHUD.m in Sources */,
 				FA3FBD921B0F6443003054E7 /* HomeVC.m in Sources */,
+				FA3FBDB31B0F79C0003054E7 /* DoctorDetailVC.m in Sources */,
 				FA3FBCDD1B0F4E0E003054E7 /* AppDelegate.m in Sources */,
+				FA3FBDA61B0F66BC003054E7 /* QuestionVC.m in Sources */,
+				FA3FBDAF1B0F7708003054E7 /* MallVC.m in Sources */,
+				FA3FBDBD1B0F7AF8003054E7 /* DoctorServiceVC.m in Sources */,
 				FA3FBCDA1B0F4E0E003054E7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -824,6 +882,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = wenyi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -840,6 +899,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = wenyi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

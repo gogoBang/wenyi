@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface SHBaseVC : UIViewController
+
+@property (nonatomic, weak) AppDelegate *appDelegate;
+
+- (void)showProgressHud:(NSString*)message;
+- (void)hideProgressHud;
+- (void)showMessage:(NSString*)message;
 
 @end

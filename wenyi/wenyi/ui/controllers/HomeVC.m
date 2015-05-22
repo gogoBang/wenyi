@@ -7,6 +7,7 @@
 //
 
 #import "HomeVC.h"
+#import "LoginVC.h"
 
 @interface HomeVC ()
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"99问医";
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:YES];
+    
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"isLogin"]) {
+        LoginVC *loginVC = [[LoginVC alloc] init];
+        [self.appDelegate.window.rootViewController presentViewController:[[UINavigationController alloc] initWithRootViewController:loginVC] animated:YES completion:nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

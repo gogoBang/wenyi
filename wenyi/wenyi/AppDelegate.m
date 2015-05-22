@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LoginVC.h"
 #import "EaseMob.h"
 
 @interface AppDelegate ()

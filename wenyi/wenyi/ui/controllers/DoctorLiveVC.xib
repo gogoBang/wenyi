@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DoctorLiveVC">
+            <connections>
+                <outlet property="chatTV" destination="1VA-Ia-FAJ" id="5IP-H6-lgY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="1VA-Ia-FAJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="pwh-ej-Kis"/>
+                        <outlet property="delegate" destination="-1" id="9Ue-jL-ZKX"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KR-SQ-EjK">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <color key="backgroundColor" red="0.51067433374364668" green="1" blue="0.56678767122807194" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="g8j-Oc-eIm"/>
+                    </constraints>
+                    <state key="normal" title="我要问医生">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="doctorService:" destination="-1" eventType="touchUpInside" id="jLv-vC-fgE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3KR-SQ-EjK" firstAttribute="top" secondItem="1VA-Ia-FAJ" secondAttribute="bottom" id="1v9-MC-Tt8"/>
+                <constraint firstItem="1VA-Ia-FAJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="AJ4-uU-Kqn"/>
+                <constraint firstAttribute="bottom" secondItem="3KR-SQ-EjK" secondAttribute="bottom" id="HAG-HK-DwA"/>
+                <constraint firstItem="3KR-SQ-EjK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KqT-3X-KtV"/>
+                <constraint firstAttribute="trailing" secondItem="1VA-Ia-FAJ" secondAttribute="trailing" id="OQO-oc-1ov"/>
+                <constraint firstItem="1VA-Ia-FAJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fpn-iD-UNQ"/>
+                <constraint firstAttribute="trailing" secondItem="3KR-SQ-EjK" secondAttribute="trailing" id="inz-Wy-m9Y"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="553" y="469"/>
+        </view>
+    </objects>
+</document>

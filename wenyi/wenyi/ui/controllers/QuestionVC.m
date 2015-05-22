@@ -1,35 +1,23 @@
 //
-//  SettingVC.m
+//  QuestionVC.m
 //  wenyi
 //
 //  Created by Alex Wu on 15/5/22.
 //  Copyright (c) 2015年 Alex Wu. All rights reserved.
 //
 
-#import "SettingVC.h"
+#import "QuestionVC.h"
 
-@interface SettingVC ()
+@interface QuestionVC ()
 
 @end
 
-@implementation SettingVC
-
-#pragma mark -
-#pragma mark - custom methods
-
-- (IBAction)logout:(id)sender
-{
-    [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"isLogin"];
-    [self.tabBarController setSelectedIndex:0];
-}
-
-#pragma mark -
-#pragma mark - view controller lifecycle methods
+@implementation QuestionVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"个人中心";
+    self.title = @"查问题";
 }
 
 - (void)didReceiveMemoryWarning {
