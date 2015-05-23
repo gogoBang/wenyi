@@ -9,7 +9,7 @@
 #import "DoctorLiveVC.h"
 #import "EaseMob.h"
 
-@interface DoctorLiveVC ()<UITableViewDataSource, UITableViewDelegate>
+@interface DoctorLiveVC ()<IChatManagerDelegate>
 
 @property (nonatomic, weak) IBOutlet UITableView *chatTV;
 @property (nonatomic, strong) NSMutableArray *chatArray;
@@ -25,6 +25,8 @@
 {
     
 }
+
+
 
 #pragma mark -
 #pragma mark - tableView delegate and data source methods
@@ -52,17 +54,14 @@
 -(void)didReceiveMessage:(EMMessage *)message
 {
     id<IEMMessageBody> msgBody = message.messageBodies.firstObject;
-    switch (msgBody.messageBodyType) {
-        case eMessageBodyType_Text:
-        {
-            // 收到的文字消息
-            NSString *txt = ((EMTextMessageBody *)msgBody).text;
-            NSLog(@"收到的文字是 txt -- %@",txt);
+    if ([message.conversationChatter isEqualToString:@"1432311450759715"]&&msgBody.messageBodyType==eMessageBodyType_Text) {
+        
+        NSString *txt = ((EMTextMessageBody *)msgBody).text;
+        if (txt.length>0) {
+            [self.chatArray addObject:[NSString stringWithFormat:@"%@：%@", message.groupSenderName, txt]];
+            [self.chatTV reloadData];
+            [self.chatTV scrollRectToVisible:CGRectMake(0.0, self.chatTV.contentSize.height - 1, self.chatTV.contentSize.width, 1) animated:NO];
         }
-            break;
-            
-        default:
-            break;
     }
 }
 
@@ -75,10 +74,8 @@
     
     self.title = @"张医生-呼吸内科";
     self.chatArray = [NSMutableArray array];
-    for (int i = 0; i <= 100; i ++) {
-        [self.chatArray addObject:[NSString stringWithFormat:@"chatContent%i", i]];
-    }
     
+    [[EaseMob sharedInstance].chatManager addDelegate:self delegateQueue:nil];
     [[EaseMob sharedInstance].chatManager asyncJoinPublicGroup:@"1432311450759715" completion:^(EMGroup *group, EMError *error) {
         if (!error) {
             NSLog(@"入群成功");

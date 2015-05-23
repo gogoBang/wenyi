@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C0A1AAC6-2BAA-47D1-84B1-2B78988D6776</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>wenyi</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>12DC6765E2B93A40FF9DF4FA8E876963ED5C6E55</key>
 		<string>https://github.com/gogoBang/wenyi.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>wenyi/wenyi.xcodeproj/project.xcworkspace</string>
+	<string>wenyi/wenyi.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>12DC6765E2B93A40FF9DF4FA8E876963ED5C6E55</key>
