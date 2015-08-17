@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"全部分类";
+    self.navigationItem.title = @"全部分类";
+    [self.navigationController.tabBarItem setSelectedImage:[[UIImage imageNamed:@"medical_c.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xCN-xf-xPW">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
@@ -31,10 +32,14 @@
         <scene sceneID="XCK-EC-nae">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="qhB-SS-xfi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" id="zTG-MX-vT2"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="shouye.png" selectedImage="shouye_c.png" id="zTG-MX-vT2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a3H-Yk-M8m">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.19215686274509802" green="0.83137254901960778" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="EFc-u8-esZ" kind="relationship" relationship="rootViewController" id="idM-qZ-aEo"/>
@@ -48,10 +53,14 @@
         <scene sceneID="xeC-t8-3fw">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="r8F-V2-Q7c" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="问医" id="Hia-k2-o5r"/>
+                    <tabBarItem key="tabBarItem" title="问医" image="wenyi.png" selectedImage="wenyi_c.png" id="Hia-k2-o5r"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ih-R0-4yt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.19215686269999999" green="0.83137254900000002" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="sMh-Tb-NS5" kind="relationship" relationship="rootViewController" id="WxA-Ze-tmb"/>
@@ -65,10 +74,14 @@
         <scene sceneID="aY3-If-vSh">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="YdW-DN-8aa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="查问题" id="oCi-Ba-deo"/>
+                    <tabBarItem key="tabBarItem" title="查问题" image="chawen.png" selectedImage="chawen_c.png" id="oCi-Ba-deo"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DoX-EO-ylZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.19215686269999999" green="0.83137254900000002" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="Ylj-Hf-dCd" kind="relationship" relationship="rootViewController" id="kAy-Jw-rs5"/>
@@ -82,10 +95,14 @@
         <scene sceneID="DGp-kj-UvV">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="Inn-X6-KOi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="药房" id="LGc-ko-Z59"/>
+                    <tabBarItem key="tabBarItem" title="药房" image="medical.png" selectedImage="medical_c.png" id="LGc-ko-Z59"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Siu-Ra-lzX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.19215686269999999" green="0.83137254900000002" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="h3R-jz-GYZ" kind="relationship" relationship="rootViewController" id="JTh-1t-pz1"/>
@@ -95,15 +112,19 @@
             </objects>
             <point key="canvasLocation" x="-3446" y="-6050"/>
         </scene>
-        <!--我的-->
+        <!--我-->
         <scene sceneID="Jno-57-JIh">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="0Vz-Md-q2Z" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" id="S1L-Au-hns"/>
+                    <tabBarItem key="tabBarItem" title="我" image="me.png" selectedImage="me_c.png" id="S1L-Au-hns"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UqV-6K-iC9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.19215686269999999" green="0.83137254900000002" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="GXd-wi-2Qd" kind="relationship" relationship="rootViewController" id="qsQ-Sn-mtt"/>
@@ -242,4 +263,16 @@
             <point key="canvasLocation" x="-4323" y="-3678"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chawen.png" width="30" height="27"/>
+        <image name="chawen_c.png" width="30" height="27"/>
+        <image name="me.png" width="31" height="29"/>
+        <image name="me_c.png" width="31" height="29"/>
+        <image name="medical.png" width="21" height="20"/>
+        <image name="medical_c.png" width="21" height="20"/>
+        <image name="shouye.png" width="34" height="31"/>
+        <image name="shouye_c.png" width="34" height="31"/>
+        <image name="wenyi.png" width="30" height="31"/>
+        <image name="wenyi_c.png" width="30" height="31"/>
+    </resources>
 </document>

@@ -29,7 +29,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"个人中心";
+    self.navigationItem.title = @"个人中心";
+    [self.navigationController.tabBarItem setSelectedImage:[[UIImage imageNamed:@"me_c.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
 }
 
 - (void)didReceiveMemoryWarning {

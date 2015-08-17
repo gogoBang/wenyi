@@ -17,7 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"查问题";
+    self.navigationItem.title = @"查问题";
+    [self.navigationController.tabBarItem setSelectedImage:[[UIImage imageNamed:@"chawen_c.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+
 }
 
 - (void)didReceiveMemoryWarning {

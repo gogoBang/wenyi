@@ -33,7 +33,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    self.title = @"问医";
+    self.navigationItem.title = @"问医";
+    [self.navigationController.tabBarItem setSelectedImage:[[UIImage imageNamed:@"wenyi_c.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
