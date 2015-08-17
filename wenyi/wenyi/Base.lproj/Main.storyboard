@@ -32,7 +32,7 @@
         <scene sceneID="XCK-EC-nae">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="qhB-SS-xfi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="shouye.png" selectedImage="shouye_c.png" id="zTG-MX-vT2"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="shouye.png" id="zTG-MX-vT2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a3H-Yk-M8m">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -53,7 +53,7 @@
         <scene sceneID="xeC-t8-3fw">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="r8F-V2-Q7c" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="问医" image="wenyi.png" selectedImage="wenyi_c.png" id="Hia-k2-o5r"/>
+                    <tabBarItem key="tabBarItem" title="问医" image="wenyi.png" id="Hia-k2-o5r"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ih-R0-4yt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -74,7 +74,7 @@
         <scene sceneID="aY3-If-vSh">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="YdW-DN-8aa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="查问题" image="chawen.png" selectedImage="chawen_c.png" id="oCi-Ba-deo"/>
+                    <tabBarItem key="tabBarItem" title="查问题" image="chawen.png" id="oCi-Ba-deo"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DoX-EO-ylZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -95,7 +95,7 @@
         <scene sceneID="DGp-kj-UvV">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="Inn-X6-KOi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="药房" image="medical.png" selectedImage="medical_c.png" id="LGc-ko-Z59"/>
+                    <tabBarItem key="tabBarItem" title="药房" image="medical.png" id="LGc-ko-Z59"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Siu-Ra-lzX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -116,7 +116,7 @@
         <scene sceneID="Jno-57-JIh">
             <objects>
                 <navigationController hidesBottomBarWhenPushed="YES" id="0Vz-Md-q2Z" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我" image="me.png" selectedImage="me_c.png" id="S1L-Au-hns"/>
+                    <tabBarItem key="tabBarItem" title="我" image="me.png" id="S1L-Au-hns"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UqV-6K-iC9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -265,14 +265,9 @@
     </scenes>
     <resources>
         <image name="chawen.png" width="30" height="27"/>
-        <image name="chawen_c.png" width="30" height="27"/>
         <image name="me.png" width="31" height="29"/>
-        <image name="me_c.png" width="31" height="29"/>
         <image name="medical.png" width="21" height="20"/>
-        <image name="medical_c.png" width="21" height="20"/>
         <image name="shouye.png" width="34" height="31"/>
-        <image name="shouye_c.png" width="34" height="31"/>
         <image name="wenyi.png" width="30" height="31"/>
-        <image name="wenyi_c.png" width="30" height="31"/>
     </resources>
 </document>
